@@ -2,7 +2,7 @@
 boilerplate of nodejs using docker
 
 ## requirement
-- install <a href="https://docs.docker.com/engine/installation/" target="_blank">Docker</a>
+- install [Docker](https://docs.docker.com/engine/installation/)
 - install [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## first time or updates
