@@ -1,15 +1,10 @@
 #FROM node:boron
-FROM ubuntu:16.04
+FROM node:6.9.1-slim
 MAINTAINER yussandeveloper@gmail.com
 
 # create app directory 
 RUN export DEBIAN_FRONTEND=noninteractive && set -x \
- && mkdir -p /usr/src/app \
- && apt-get update && apt-get install -y curl \
- && apt-get autoremove -y -f \
- && apt-get clean -y \
- && curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh \
- && bash nodesource_setup.sh
+ && mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app 
 
