@@ -7,5 +7,5 @@ services:
       - "8081:8081"
       - "8082:8082"
     volumes:
-      - ./apps:/usr/src/app
+      - ./apps:/usr/src/apps
     network_mode: "host"
