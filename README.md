@@ -5,8 +5,8 @@ boilerplate of nodejs using docker
 - install [Docker](https://docs.docker.com/engine/installation/)
 - install [Docker Compose](https://docs.docker.com/compose/install/)
 
-## inside
-- example single Node JS app using docker 
+## todo
+- example single Node JS app using docker
 - example multiple Node JS app using docker
 
 ## first time or updates

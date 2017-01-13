@@ -1,9 +1,9 @@
 const http = require('http')
-const port = 8082
+const port = 8081
 
 const requestHandler = (req, res) => {
-	console.log(req.url)
-	res.end('ready')
+	console.log(req.headers.host+req.url)
+	res.end('first app is ready')
 }
 
 const server = http.createServer(requestHandler)
@@ -14,5 +14,5 @@ server.listen(port, err => {
 		console.log('someting wrong', err)
 	}
 
-	console.log('server run on ', port)
+	console.log('first app run on', port)
 })

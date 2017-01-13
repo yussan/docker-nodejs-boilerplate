@@ -7,10 +7,10 @@ RUN export DEBIAN_FRONTEND=noninteractive && set -x \
   && apt-get autoremove -y -f \
   && apt-get clean -y
 
-COPY conf/etc /etc
+RUN mkdir -p /usr/src/apps
 
-#create app directory
-# RUN mkdir -p /usr/src/apps
+COPY conf/etc /etc
+COPY apps /usr/src/apps
 
 CMD ["/etc/supervisor/supervisor.sh"]
 
