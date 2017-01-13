@@ -1,6 +1,11 @@
 # docker-nodejs-boilerplate
 boilerplate of nodejs using docker
 
+## status 
+- single app : DONE
+- simple app : DONE
+- multiple apps : ON PROGRESS
+
 ## requirement
 - install [Docker](https://docs.docker.com/engine/installation/)
 - install [Docker Compose](https://docs.docker.com/compose/install/)
