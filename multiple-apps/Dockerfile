@@ -7,6 +7,7 @@ RUN export DEBIAN_FRONTEND=noninteractive && set -x \
   && apt-get autoremove -y -f \
   && apt-get clean -y
 
+RUN service supervisor start
 RUN mkdir -p /usr/src/apps
 
 COPY conf/etc /etc

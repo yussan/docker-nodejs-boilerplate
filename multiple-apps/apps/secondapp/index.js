@@ -9,10 +9,7 @@ const requestHandler = (req, res) => {
 const server = http.createServer(requestHandler)
 
 server.listen(port, err => {
-	if(err)
-	{
-		console.log('someting wrong', err)
-	}
+	if(err) console.log('someting wrong', err)
 
 	console.log('second app run on', port)
 })
