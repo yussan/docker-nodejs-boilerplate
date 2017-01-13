@@ -2,8 +2,10 @@ version: '2'
 services:
   vm:
     build: .
+    image: yussan/multiple_node:0.1
     ports:
       - "8081:8081"
       - "8082:8082"
     volumes:
       - ./apps:/usr/src/app
+    network_mode: "host"
