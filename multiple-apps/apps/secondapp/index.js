@@ -3,7 +3,7 @@ const port = 8082
 
 const requestHandler = (req, res) => {
 	console.log(req.headers.host+req.url)
-	res.end('second app is ready')
+	res.end('second app is readys')
 }
 
 const server = http.createServer(requestHandler)
