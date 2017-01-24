@@ -6,5 +6,5 @@ const server = http.createServer(require('./app'))
 server.listen(port, err => {
 	if(err) console.log('someting wrong', err)
 
-	console.log('first app run on', port)
+	console.log('first app run on ', port)
 })

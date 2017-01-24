@@ -1,6 +1,6 @@
 version: '2'
 services:
-  vm:
+  vm1:
     build: .
     image: yussan/single_nodejs:0.1
     ports:

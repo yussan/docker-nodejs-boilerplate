@@ -3,7 +3,6 @@ MAINTAINER yussandeveloper@gmail.com
 
 # create app directory
 RUN export DEBIAN_FRONTEND=noninteractive && set -x \
-  && apt-get update -y && apt-get install -y software-properties-common supervisor \
   && npm install -g nodemon \
   && mkdir -p /usr/src/app
 

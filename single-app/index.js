@@ -3,7 +3,7 @@ const port = 8080
 
 const requestHandler = (req, res) => {
 	console.log(req.url)
-	res.end('readys')
+	res.end('ready')
 }
 
 const server = http.createServer(requestHandler)
