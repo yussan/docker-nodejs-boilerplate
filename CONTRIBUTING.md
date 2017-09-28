@@ -1,0 +1,1 @@
+if you have any new ideas about this repo, let's talk through [Twitter](https://twitter.com/xyussax), or for easier, fork this repo and pull request for bug fixing, enhacement or other positive things.
