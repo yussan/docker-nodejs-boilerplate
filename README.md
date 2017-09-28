@@ -18,8 +18,8 @@ boilerplate of nodejs using docker
 ## Getting Started
 
 We have two option of boilerplates, that's it :
-- [single app nodejs run in Docker](https://github.com/yussan/docker-nodejs-boilerplate/tree/master/single-apps)
-- [multiple app nodejs run in Docker](https://github.com/yussan/docker-nodejs-boilerplate/tree/master/single-app)
+- [single app nodejs run in Docker](https://github.com/yussan/docker-nodejs-boilerplate/tree/master/single-app)
+- [multiple app nodejs run in Docker](https://github.com/yussan/docker-nodejs-boilerplate/tree/master/multiple-app)
 
 Make sure to read `README.md` in every directory to learn more about architecture and start apps.
 
