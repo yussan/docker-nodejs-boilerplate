@@ -1,9 +1,0 @@
-version: '2'
-services:
-  vm1:
-    build: .
-    image: yussan/single_nodejs:0.1
-    ports:
-      - "8080:8080"
-    volumes:
-      - .:/usr/src/app
